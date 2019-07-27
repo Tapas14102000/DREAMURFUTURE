@@ -4,7 +4,7 @@ public class q10 {
 
 	public static void main(String[] args)
 	{
-		 double s=0;int i,j;
+		 long s=0;int i,j;
 	     for(i=2;i<2000000;i++)
 	     {
 	      if(isprime(i)==0)
