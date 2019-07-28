@@ -5,7 +5,7 @@ public class q5
 
 	public static void main(String[] args) 
 	{
-		 int k=1,flag=0;
+		 int k=2520,flag=0;
 		 while(flag==0)
 		 {
 	            for(int i=2;i<=20;i++)
