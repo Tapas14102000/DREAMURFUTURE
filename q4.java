@@ -7,7 +7,7 @@ public class q4 {
 	int max=-1,i,j;
 	     for( i=999;i>=100;i--)
 	     {
-	          for( j=999;j>=100;j--)
+	          for( j=100;j<=999;j++)
 	          {
 	               int k=i*j;
 	               String ans=String.valueOf(k);
