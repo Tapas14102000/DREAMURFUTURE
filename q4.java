@@ -4,10 +4,10 @@ public class q4 {
 
 	public static void main(String[] args)
 	{
-		 int max=-1,i,j;
-	     for( i=100;i<1000;i++)
+	int max=-1,i,j;
+	     for( i=999;i>=100;i--)
 	     {
-	          for( j=100;j<1000;j++)
+	          for( j=999;j>=100;j--)
 	          {
 	               int k=i*j;
 	               String ans=String.valueOf(k);
