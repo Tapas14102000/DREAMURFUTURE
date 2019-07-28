@@ -8,7 +8,7 @@ public class q5
 		 int k=2520,flag=0;
 		 while(flag==0)
 		 {
-	            for(int i=2;i<=20;i++)
+	            for(int i=11;i<=20;i++)
 	             {
 	               if(k%i!=0)
 	                    {k++;break;}
