@@ -5,23 +5,25 @@ public class q5
 
 	public static void main(String[] args) 
 	{
-		 int k=2520,flag=0;
-		 while(flag==0)
-		 {
-	            for(int i=11;i<=20;i++)
-	             {
-	               if(k%i!=0)
-	                    {k++;break;}
-	               else if(i==20)
-	                    {
-	            	   	 flag=1;
-	                    	 System.out.println(k+" is the smallest positive no. that is evenly divisible by all of the numbers from 1 t0 20.");  
-	                         break;
-	                    }
-	             }
-		 }    
-	   
-	     
+		long tlcm=1l;
+		for(long i=1l;i<=20;i++)
+			tlcm=lcmf(i,tlcm);
+		System.out.println(tlcm+" is the smallest positive no. that is evenly divisibe by all of the numbers from 1 to 20 .");
+	}
+	static long lcmf(long a,long b)
+	{
+		long m=a,n=b,gcd=0;
+		while(a!=b)
+		{
+			if(a>b)
+				a-=b;
+			else
+				b-=a;
+		}
+		gcd=a;
+		return (m*n)/gcd;
+			
+		
 	}
 
 }
